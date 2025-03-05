@@ -3,7 +3,7 @@ START
 	MOV R0,#0
 	MOV R1,#1
 LOOP
-       ADD RO,R1
+        ADD RO,R1
 	ADD R1,#1
 	CMP R1,#11
 	BNE LOOP
